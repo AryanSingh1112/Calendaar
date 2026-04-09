@@ -130,6 +130,45 @@ This project follows **production-level architecture principles** with strict se
 
 ---
 
+## 🧠 Key Design & Technology Choices
+
+- **Next.js (App Router)**
+  → Choose Next.js for its structured architecture and production-ready environment. It enables clean component organization, fast development, and seamless deployment (Vercel). Even though this is a frontend-only task, using Next.js reflects how I build scalable, real-world applications rather than isolated components.
+
+- **TypeScript**
+  → Used TypeScript to ensure type safety, reduce runtime errors, and improve code maintainability. It also makes the codebase more predictable and easier to scale, especially when handling complex state like date ranges and notes.
+
+- **Tailwind CSS**
+  → Selected Tailwind for its utility-first approach, allowing rapid UI development with consistent spacing, typography, and design tokens. This helped maintain a clean and cohesive SaaS-style design without writing verbose custom CSS.
+
+- **Custom Hooks for State Management**
+  → Instead of using external state libraries, I built custom hooks to manage calendar state, selection logic, and UI updates. This keeps the logic modular, reusable, and aligned with React best practices.
+
+- **Separation of Concerns (Services, Hooks, Components)**
+  → Structured the application into distinct layers:
+    - Services → business logic (date calculations)
+    - Hooks → state & interaction logic
+    - Components → UI rendering  
+  This ensures maintainability, testability, and clarity in larger applications.
+
+- **Custom Date Range Logic (No Library)**
+  → Implemented date selection and range handling manually instead of relying on libraries. This demonstrates problem-solving ability and provides full control over UX behavior.
+
+- **localStorage for Persistence**
+  → Since the scope is strictly frontend, I used localStorage to persist notes across sessions. This avoids unnecessary backend complexity while still delivering a realistic user experience.
+
+- **Single-Page Architecture**
+  → Kept everything within a single page instead of using routing. This ensures faster interactions and a smoother UX, especially when switching between dates or updating the detail panel.
+
+- **Dynamic Detail Panel (Instead of Modal)**
+  → Used a persistent side panel instead of popups/modals to maintain context and improve usability. Users can view and edit notes without interrupting their workflow.
+
+- **UI/UX Focused Design**
+  → Prioritized clarity, interaction smoothness, and visual hierarchy over feature overload. The goal was to build something that feels like a real product, not just a functional demo.
+
+- **Glassmorphism + Dark SaaS Theme**
+  → Adopted a modern design system with subtle gradients, blur, and depth to align with current SaaS UI standards while maintaining readability and performance.
+
 ## 🚀 Getting Started
 
 ```bash
