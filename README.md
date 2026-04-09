@@ -82,7 +82,6 @@ This project follows **production-level architecture principles** with strict se
 └── Navbar.tsx
 
 
----
 
 ## 🏗️ Separation of Concerns
 
