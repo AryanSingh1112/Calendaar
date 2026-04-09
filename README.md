@@ -170,6 +170,11 @@ This project follows **production-level architecture principles** with strict se
 - **Glassmorphism + Dark SaaS Theme**
   → Adopted a modern design system with subtle gradients, blur, and depth to align with current SaaS UI standards while maintaining readability and performance.
 
+  Some Shots:
+
+  <img width="1920" height="922" alt="Screenshot 2026-04-09 102033" src="https://github.com/user-attachments/assets/7ff98fe7-2a79-4ba2-a665-14fe222f151f" />
+
+
 ## 🚀 Getting Started
 
 ```bash
@@ -178,13 +183,7 @@ cd calendaar
 npm install
 npm run dev
 
-**Some Screenshots**:
 
-<img width="1911" height="903" alt="Screenshot 2026-04-09 101643" src="https://github.com/user-attachments/assets/4b8b9c5f-4c4e-44a1-bbc1-c7eaaba0f016" />
-
-<img width="1906" height="908" alt="Screenshot 2026-04-09 104347" src="https://github.com/user-attachments/assets/8eaa7378-38d2-4a30-94d4-2028256f3f91" />
-
-<img width="1920" height="922" alt="Screenshot 2026-04-09 102033" src="https://github.com/user-attachments/assets/e7d9a5ac-f992-409e-a8f5-c294c3071c3a" />
 
 
 
