@@ -53,33 +53,37 @@ This project follows **production-level architecture principles** with strict se
 
 ### 📂 Directory Structure
 
+### 📂 Directory Structure
+
+```bash
 /lib
-├── /services
-│ ├── dateService.ts
-│ ├── quoteService.ts
-│ └── index.ts
-│
-├── /hooks
-│ ├── useCalendarGrid.ts
-│ ├── useDetailPanel.ts
-│ ├── useHeroPanel.ts
-│ ├── useCalendarMonth.ts
-│ └── index.ts
-│
-├── /formatting
-│ ├── dateFormatting.ts
-│ └── index.ts
-│
-├── constants.ts
-├── types.ts
-├── utils.ts
+  ├── /services
+  │   ├── dateService.ts
+  │   ├── quoteService.ts
+  │   └── index.ts
+  │
+  ├── /hooks
+  │   ├── useCalendarGrid.ts
+  │   ├── useDetailPanel.ts
+  │   ├── useHeroPanel.ts
+  │   ├── useCalendarMonth.ts
+  │   └── index.ts
+  │
+  ├── /formatting
+  │   ├── dateFormatting.ts
+  │   └── index.ts
+  │
+  ├── constants.ts
+  ├── types.ts
+  ├── utils.ts
 
 /app/components
-├── CalendarGrid.tsx
-├── DayCell.tsx
-├── DetailPanel.tsx
-├── HeroPanel.tsx
-└── Navbar.tsx
+  ├── CalendarGrid.tsx
+  ├── DayCell.tsx
+  ├── DetailPanel.tsx
+  ├── HeroPanel.tsx
+  └── Navbar.tsx
+```
 
 
 
