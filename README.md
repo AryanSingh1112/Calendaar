@@ -170,9 +170,16 @@ This project follows **production-level architecture principles** with strict se
 - **Glassmorphism + Dark SaaS Theme**
   → Adopted a modern design system with subtle gradients, blur, and depth to align with current SaaS UI standards while maintaining readability and performance.
 
-  Some Shots:
+
+ **Some Shots**:
 
   <img width="1920" height="922" alt="Screenshot 2026-04-09 102033" src="https://github.com/user-attachments/assets/7ff98fe7-2a79-4ba2-a665-14fe222f151f" />
+
+  <img width="1906" height="908" alt="Screenshot 2026-04-09 104347" src="https://github.com/user-attachments/assets/05296376-69ca-4201-b66a-c501ae7f13c4" />
+
+  <img width="1911" height="903" alt="Screenshot 2026-04-09 101643" src="https://github.com/user-attachments/assets/8e74380b-874f-4ad4-a598-1e7c0138aa54" />
+
+
 
 
 ## 🚀 Getting Started
